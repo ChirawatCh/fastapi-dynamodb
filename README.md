@@ -1,4 +1,4 @@
-# fastapi-dynamodb
+# Fastapi with Local DynamoDB on Docker container
 
 This project uses FastAPI and DynamoDB together in a Docker container. 
 
