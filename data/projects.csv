@@ -1,0 +1,133 @@
+﻿project_name,hours,year_month
+Non Productive Work,1485,2023-may
+BAU Support,575,2023-may
+[004]Stock service optimization,526,2023-may
+[082]Revamp registration page (per UX/UI recommendation) [2nd],427,2023-may
+[021]WFM (Scheduler),422,2023-may
+[056]Cash Office Application,320,2023-may
+[006]Rebuild CRM customer cache,314,2023-may
+[092]LINE Premium Redemption (Line & App),308,2023-may
+[039] Label 1.0,289,2023-may
+[007]Rebuild Customer API,250,2023-may
+[005]Rebuild POS API,247,2023-may
+[033]Build full CLM regression coverage,224,2023-may
+[027]B2B gift card,200,2023-may
+[014]POS realtime earn,195,2023-may
+RPA - Price Checking Tool,145,2023-may
+Automation - Regression,138,2023-may
+[038] CMA 3.0,128,2023-may
+[009]Rebuild SFCRM API,73,2023-may
+[061]RMS x PGRX,71,2023-may
+[080]Coin Earn / Burn reason and/or source on Notification and Coin history [2nd],65,2023-may
+[010]Rebuild SessionM API,56,2023-may
+[068]Reconciliation Report,45,2023-may
+"[015]Partner point exchange (common partners) ""OneSiam""",41,2023-may
+[034]RPA Coupon/Campaign Creation Enhancement,40,2023-may
+[036]Stock API x Oracle SIM,23,2023-may
+[008]Rebuild SFMC API,12,2023-may
+[018]LINE web loyalty,2,2023-may
+Meeting,1391,2023-june
+Work without Projects,890,2023-june
+BAU,750,2023-june
+[086] Revamp My coupon : MyLo / coupon / voucher pages (per UX/UI recommendation) [3rd],648,2023-june
+[004] Stock service optimization,539,2023-june
+[007] Rebuild Customer API,461,2023-june
+[102] Price Checking Tool,397,2023-june
+[021] WFM (Scheduler),380,2023-june
+[006] Rebuild CRM customer cache,358,2023-june
+[082] Revamp registration page (per UX/UI recommendation) [2nd],315,2023-june
+[092] LINE Premium Redemption (Line & App),302,2023-june
+[039] Label 1.0,270,2023-june
+[014] POS realtime earn,198,2023-june
+[038] CMA 3.0,182,2023-june
+[041] Paperless for Oracle SIM,142,2023-june
+[068] Reconciliation Report,95,2023-june
+[080] Coin Earn / Burn reason and/or source on Notification and Coin history [2nd],55,2023-june
+"[015] Partner point exchange (common partners) ""OneSiam""",47,2023-june
+[043] Facebook offline conversion,40,2023-june
+[027] Gift Card,38,2023-june
+[061] RMS x PGRX,37,2023-june
+[056] Cash Office,33,2023-june
+[005] Rebuild POS API,33,2023-june
+[093] Fusionex SDK implementation,29,2023-june
+[008] Rebuild SFMC API,9,2023-june
+[017] Non-Thai register,6,2023-june
+"[098] Marketig commuincation consent on Mobile App, Web, LINE",5,2023-june
+[010] Rebuild SessionM API,3,2023-june
+"[096] Edit Mobile number in App, Web, LINE",2,2023-june
+[018] LINE web loyalty,1,2023-june
+Meeting​,739,2023-july
+[086] Revamp My coupon : MyLo / coupon / voucher pages (per ​ UX/UI recommendation) [3rd]​,448,2023-july
+N/A​,404,2023-july
+[004] Stock service optimization​,156,2023-july
+[007] Rebuild Customer API​,140,2023-july
+[006] Rebuild CRM customer cache​,127,2023-july
+[014] POS realtime earn​,118,2023-july
+BAU​,79,2023-july
+[092] LINE Premium Redemption (Line & App)​,60,2023-july
+[021] WFM (Scheduler)​,59,2023-july
+[041] Paperless for Oracle SIM​,57,2023-july
+[102] Price Checking Tool​,51,2023-july
+[039] Label 1.0​,47,2023-july
+[079] TMN Binding​,47,2023-july
+Performance test​,28,2023-july
+[068] Reconciliation Report​,16,2023-july
+[061] RMS x PGRX​,15,2023-july
+[080] Coin Earn / Burn reason and/or source on Notification and ​ Coin history [2nd]​,14,2023-july
+"[015] Partner point exchange (common partners) ""OneSiam""​",9,2023-july
+[082] Revamp registration page (per UX/UI recommendation) [2nd]​,6,2023-july
+[038] CMA 3.0​,4,2023-july
+[093] Fusionex SDK​,2,2023-july
+Meeting,2441,2023-august
+N/A,1058,2023-august
+[086] Revamp My Coupon,1664,2023-august
+[004] Stock API,622,2023-august
+[007] Rebuild Customer API,595,2023-august
+BAU,363,2023-august
+Label,348,2023-august
+[021] WFM,283,2023-august
+[079] TMN Binding,278,2023-august
+[099] My Coupon (LINE),236,2023-august
+[092] LINE Premium Redemption,223,2023-august
+[006] Rebuild Customer Cache,204,2023-august
+[041] Paperless Oracle SIM,194,2023-august
+[014] POS Realtime Earn,178,2023-august
+Performance Test,148,2023-august
+[080] Reason Code in Coin History,130,2023-august
+[102] Price Checking Tool,130,2023-august
+CMA,125,2023-august
+GA Tagging,83,2023-august
+[088] R10,51,2023-august
+[034] Coupon Creation (MY),30,2023-august
+[098] Marketing Consent,26,2023-august
+[082] Revamp Registration Page,6,2023-august
+[093] Fusionex SDK,4,2023-august
+s,3357,2023-september
+[086] Revamp My Coupon,1453,2023-september
+N/A,1339,2023-september
+BAU,738,2023-september
+[088] R10,652,2023-september
+[103] UXUI Improvement,436,2023-september
+[007] Rebuild Customer API,318,2023-september
+[006] Rebuild Customer Cache,267,2023-september
+Label,225,2023-september
+[043] Facebook Offline,224,2023-september
+[004] Stock Service Optimization,217,2023-september
+[099] My Coupon,160,2023-september
+[056] Cash Office,123,2023-september
+[080] Coin Earn Burn Reason,84,2023-september
+[079] TMN Binding,84,2023-september
+[017] Non Thai Register,80,2023-september
+Perf,68,2023-september
+[034] Coupon Creation,68,2023-september
+CMA,56,2023-september
+[102] Price Checking Tool,40,2023-september
+[005] Rebuild POS API,26,2023-september
+[009] Rebuild SFCRM API,26,2023-september
+[014] POS Real Time Earn,23,2023-september
+[008] Rebuild SFMC API,18,2023-september
+[098] Marketing Consent,15,2023-september
+[092] LINE Premium Redemption,13,2023-september
+[093] Fusionex SDK,7,2023-september
+[096] Edit Mobile Number,3,2023-september
+[061] PGRX,4,2023-september
