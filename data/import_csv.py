@@ -1,6 +1,9 @@
 import csv
 import boto3
 
+# Path to your CSV file
+csv_file = 'data/projects.csv'
+
 # Initialize the DynamoDB resource
 dynamodb = boto3.resource('dynamodb', region_name='eu-west-1', endpoint_url="http://dynamodb-local:8000")
 client = dynamodb.meta.client
@@ -60,29 +63,25 @@ if table_name not in existing_tables:
 
     print("Created table with GSI.")
     table.wait_until_exists()
+    table = dynamodb.Table(table_name)
+
+    with open(csv_file, newline='', encoding='utf-8-sig') as csvfile:  # Specify 'utf-8-sig' encoding
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            project_name = row['project_name']
+            hours = int(row['hours'])
+            year_month = row['year_month']
+            
+            # Insert the data into DynamoDB
+            table.put_item(
+                Item={
+                    'project_name': project_name,
+                    'hours': hours,
+                    'year_month': year_month
+                }
+            )
+
+    print(f'Data from {csv_file} has been imported to {table_name}.')
 
 else:
     print("Table already exists.")
-
-table = dynamodb.Table(table_name)
-
-# Path to your CSV file
-csv_file = 'data/projects.csv'
-
-with open(csv_file, newline='', encoding='utf-8-sig') as csvfile:  # Specify 'utf-8-sig' encoding
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        project_name = row['project_name']
-        hours = int(row['hours'])
-        year_month = row['year_month']
-        
-        # Insert the data into DynamoDB
-        table.put_item(
-            Item={
-                'project_name': project_name,
-                'hours': hours,
-                'year_month': year_month
-            }
-        )
-
-print(f'Data from {csv_file} has been imported to {table_name}.')
