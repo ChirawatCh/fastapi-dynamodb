@@ -42,15 +42,15 @@ To load sample data into DynamoDB, run:
 docker-compose run --rm app python data/import_csv.py
 ```
 
-This will import the `projects.csv` file into a DynamoDB table called `projects`.
+This will import the `projects.csv` file into a DynamoDB table called `ProjectHours`.
 
-The FastAPI application is preconfigured to connect to the `projects` table.
+The FastAPI application is preconfigured to connect to the `ProjectHours` table.
 
 ### Architecture
 
 The Docker Compose file runs two containers:
 
-- `app` - The FastAPI application
+- `app-node` - The FastAPI application
 - `dynamodb-local` - The official DynamoDB local container
 
 The app container mounts the `data` and `src` directories, so you can modify the Python code without having to rebuild the image.
