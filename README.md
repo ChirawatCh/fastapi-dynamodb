@@ -1,4 +1,4 @@
-# FastAPI-DynamoDBLocal API Endpoints
+# Dev environment for FastAPI-DynamoDB-Local
 
 Welcome to the FastAPI-DynamoDBLocal project, where we combine the power of FastAPI and DynamoDB within a Docker container to create efficient API endpoints.
 
